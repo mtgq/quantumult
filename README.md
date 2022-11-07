@@ -8,3 +8,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/mtgq/quantumult/main/lazy.
 ## clash使用
 
 https://ghproxy.com/https://raw.githubusercontent.com/mtgq/quantumult/main/clash.yaml
+
+## Shadowrocket
+
+https://ghproxy.com/https://raw.githubusercontent.com/mtgq/quantumult/main/ss.conf
