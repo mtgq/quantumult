@@ -148,24 +148,24 @@ proxy-providers:
       interval: 600
       url: http://www.gstatic.com/generate_204
 proxy-groups:
-  - name: 手动切换
+  - name: 🚀 节点选择
     type: select
     use:
       - All
     proxies:
-      - 自动选择
-  - name: 自动选择
+      - ♻️ 自动选择
+  - name: ♻️ 自动选择
     type: url-test
     use:
       - All
     url: http://www.gstatic.com/generate_204
     interval: 300
-  - name: 漏网之鱼
+  - name: 🐟 漏网之鱼
     type: select
     proxies:
-      - 手动切换
+      - 🚀 节点选择
       - DIRECT
-      - 自动选择
+      - ♻️ 自动选择
 
 rule-providers:
   lancidr:
@@ -221,9 +221,9 @@ rules:
   - RULE-SET,direct,DIRECT
   - RULE-SET,adblock,REJECT
   - RULE-SET,Apple,DIRECT
-  - RULE-SET,microsoft,漏网之鱼
-  - RULE-SET,proxy,漏网之鱼
+  - RULE-SET,microsoft,🐟 漏网之鱼
+  - RULE-SET,proxy,🐟 漏网之鱼
   - RULE-SET,china,DIRECT
   - RULE-SET,chinaips,DIRECT
   - GEOIP,CN,DIRECT
-  - MATCH,漏网之鱼
+  - MATCH,🐟 漏网之鱼
